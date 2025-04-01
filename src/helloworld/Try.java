@@ -1,5 +1,5 @@
 package helloworld;
-
+import java.util.Scanner;
 public class Try {
 
 	public static void main(String[] args) {
@@ -9,5 +9,9 @@ public class Try {
             System.out.println("Yes you are allowed to vote!");
 
 	}
+        else
+        {
+        	System.out.println("Not Allowed");
+        }
 
 }}
